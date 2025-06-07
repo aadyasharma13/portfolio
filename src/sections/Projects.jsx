@@ -35,8 +35,8 @@ const Projects = () => {
 
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
         <div className="flex flex-col gap-5 relative z-10 sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
-          <div className="absolute top-0 right-0 z-0">
-            <img src={currentProject.spotlight} alt="spotlight" className="w-full h-96 object-cover rounded-xl opacity-20" />
+          <div className="absolute top-0 right-0">
+            <img src={currentProject.spotlight} alt="spotlight" className="w-full h-96 object-cover rounded-xl" />
           </div>
 
           {/* <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={currentProject.logoStyle}>
@@ -60,7 +60,7 @@ const Projects = () => {
             </div>
 
             <a
-              className="flex items-center gap-2 cursor-pointer text-white-600 z-10"
+              className="flex items-center gap-2 cursor-pointer text-white-600"
               href={currentProject.href}
               target="_blank"
               rel="noopener noreferrer">
