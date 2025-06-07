@@ -43,6 +43,7 @@ const AboutMeDetails = () => {
               {/* <p className="text-sm text-white-600">{art.description}</p> */}
             </div>
           ))}
+          
         </div>
       </div>
     </div>

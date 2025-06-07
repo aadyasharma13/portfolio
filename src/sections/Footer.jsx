@@ -37,7 +37,7 @@ const Footer = () => {
         <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
       </a>
       <a href="https://x.com/helloartsify" target="_blank" rel="noopener noreferrer" className="social-icon">
-        <img src="public/assets/x.png" alt="twitter" className="w-1/2 h-1/2" />
+        <img src="/assets/x.png" alt="twitter" className="w-1/2 h-1/2" />
       </a>
       <a href="https://www.linkedin.com/in/aadya13/" target="_blank" rel="noopener noreferrer" className="social-icon">
         <img src="/assets/linkedin.png" alt="linkedin" className="w-1/2 h-1/2" />

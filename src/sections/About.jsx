@@ -33,7 +33,7 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="public/assets/creative1.jpeg" alt="grid-2" className="w-full sm:h-[274px] h-fit object-contain" />
+            <img src="/assets/creative1.jpeg" alt="grid-2" className="w-full sm:h-[274px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">More About Me</p>
@@ -73,7 +73,7 @@ const About = () => {
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="public 2/textures/desk/image.jpg"
+              src="/assets/image.jpg"
               alt="grid-3"
               className="w-48 h-48 mx-auto rounded-full object-cover aspect-square drop-shadow-lg"
               style={{ boxShadow: '0 4px 20px rgba(0, 132, 255, 0.3)' }}

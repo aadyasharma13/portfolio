@@ -82,6 +82,7 @@ const Contact = () => {
             <label className="space-y-3">
               <span className="field-label">Full Name</span>
               <input
+        
                 type="text"
                 name="name"
                 value={form.name}

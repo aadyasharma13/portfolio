@@ -12,7 +12,7 @@ const DemoComputer = (props) => {
   const { nodes, materials, animations } = useGLTF('/models/computer.glb');
   const { actions } = useAnimations(animations, group);
 
-  const txt = useVideoTexture(props.texture ? props.texture : 'public/textures/project/WhatsApp Video 2025-05-18 at 20.16.08.mp4');
+  const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/WhatsApp Video 2025-05-18 at 20.16.08.mp4');
 
   useEffect(() => {
     if (txt) {

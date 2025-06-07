@@ -21,40 +21,6 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
-  {
-    id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
-    review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  },
-  {
-    id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
-    review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
-];
 
 export const myProjects = [
   {
@@ -63,7 +29,7 @@ export const myProjects = [
     subdesc:
       '',
     href: 'https://github.com/aadyasharma13/BLU-Medical-Assistant',
-    texture: 'public/textures/project/blu.mp4',
+    texture: '/textures/project/blu.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
       backgroundColor: '#2A1816',
@@ -80,17 +46,17 @@ export const myProjects = [
       {
         id: 2,
         name: 'Jupyter',
-        path: 'public/assets/jupyter.png',
+        path: '/assets/jupyter.png',
       },
       {
         id: 3,
         name: 'Python',
-        path: 'public/assets/python.png',
+        path: '/assets/python.png',
       },
       {
         id: 4,
         name: 'Flask',
-        path: 'public/assets/flask.jpeg',
+        path: '/assets/flask.jpeg',
       },
     ],
   },
@@ -100,7 +66,7 @@ export const myProjects = [
     subdesc:
       '',
     href: 'https://github.com/aadyasharma13/AI-Career-Coach',
-    texture: 'public/textures/project/comingsoon.mp4',
+    texture: '/textures/project/comingsoon.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -112,23 +78,23 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: 'public/assets/hugginface.png',
+        path: '/assets/hugginface.png',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: 'public/assets/langchain.png',
+        path: '/assets/langchain.png',
       },
       {
         id: 3,
         
         name: 'TypeScript',
-        path: 'public/assets/claude.png',
+        path: '/assets/claude.png',
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: 'public/assets/python.png',
+        path: '/assets/python.png',
       },
     ],
   },
@@ -138,7 +104,7 @@ export const myProjects = [
     subdesc:
       'Won 1st place at the Web3 BUIDL-a-thon organized by MU Blockchain Club, sponsored by Kalki Labs, Hyderabad DAO, Aleph Zero, and Hashira',
     href: 'https://github.com/aadyasharma13/brick-chain.git',
-    texture: 'public/textures/project/WhatsApp Video 2025-05-18 at 20.16.08.mp4',
+    texture: '/textures/project/WhatsApp Video 2025-05-18 at 20.16.08.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
@@ -157,17 +123,17 @@ export const myProjects = [
       {
         id: 2,
         name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        path: '/assets/tailwindcss.png',
       },
       {
         id: 3,
         name: 'JavaScript',
-        path: 'public/assets/javaaa.png',
+        path: '/assets/javaaa.png',
       },
       {
         id: 4,
         name: 'Solidity',
-        path: 'public/assets/solidity.png',
+        path: '/assets/solidity.png',
       },
     ],
   },
@@ -192,7 +158,7 @@ export const workExperiences = [
     pos: 'Founder',
     duration: 'Jan 2025 - Present',
     title: "We are a community of patients, caregivers and medical professionals that come together to share their journey and experiences",
-    icon: 'public 2/textures/desk/image.jpg',
+    icon: '/assets/image.jpg',
     animation: 'victory',
   },
   {
@@ -201,7 +167,7 @@ export const workExperiences = [
     pos: 'Devops Intern',
     duration: 'June 2024 - August 2024',
     title: "Redesigned the Arrhythmia Templates Generator by modularizing the Python code and transitioning core components to Go, resulting in faster output. Integrated AWS for efficient data handling and developed visualization tools (sales, heart rate, battery levels) using Go, Python, and D3.js. Improved UX with intuitive, color-coded graphics and documented the clinical reporting dashboard in collaboration with a senior engineer.",
-    icon: 'public/assets/monitra.jpeg',
+    icon: '/assets/monitra.jpeg',
     animation: 'clapping',
   },
   {
@@ -210,7 +176,7 @@ export const workExperiences = [
     pos: 'Media and Content Coordinator',
     duration: 'November 2024 - Present',
     title: "Designed and strategized alumni engagement content for social media, leveraging creative writing and design skills to develop impactful posts. Utilized tools like Canva and AI-based platforms to create compelling visuals and narratives that fostered stronger alumni connections.",
-    icon: 'public/assets/marc.jpeg',
+    icon: '/assets/marc.jpeg',
     animation: 'salute',
   },
 ];
@@ -220,37 +186,37 @@ export const myArtworksVertical = [
   {
     title: 'Artwork Title 1',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art1.jpeg',
+    image: '/paintings /art1.jpeg',
   },
   {
     title: 'Artwork Title 2',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art13.jpeg',
+    image: '/paintings /art13.jpeg',
   },
   {
     title: 'Artwork Title 3',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art2.jpeg',
+    image: '/paintings /art2.jpeg',
   },
   {
     title: 'Artwork Title 4',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art9.jpeg',
+    image: '/paintings /art9.jpeg',
   },
   {
     title: 'Artwork Title 5',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art8.jpeg',
+    image: '/paintings /art8.jpeg',
   },
   {
     title: 'Artwork Title 2',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art4.jpeg',
+    image: '/paintings /art4.jpeg',
   },
   {
     title: 'Artwork Title 5',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art5.jpeg',
+    image: '/paintings /art5.jpeg',
   },
 ];
 
@@ -258,27 +224,27 @@ export const myArtworksHorizontal = [
   {
     title: 'Artwork Title 1',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art6.jpeg',
+    image: '/paintings /art6.jpeg',
   },
   {
     title: 'Artwork Title 2',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art3.jpeg',
+    image: '/paintings /art3.jpeg',
   },
   
   {
     title: 'Artwork Title 3',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art10.jpeg',
+    image: '/paintings /art10.jpeg',
   },
   {
     title: 'Artwork Title 4',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art11.jpeg',
+    image: '/paintings /art11.jpeg',
   },
   {
     title: 'Artwork Title 5',
     description: 'This is a brief description of what this artwork represents or how it was created.',
-    image: 'public/paintings /art12.jpeg',
+    image: '/paintings /art12.jpeg',
   },
 ];
