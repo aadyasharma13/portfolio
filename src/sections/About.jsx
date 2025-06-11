@@ -16,8 +16,8 @@ const About = () => {
   };
 
   return (
-    <section className="c-space my-20" id="about">
-      <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
+    <section className="c-space my-10 max-w-6xl mx-auto px-4 pb-80" id="about">
+      <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-4 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img src="assets/d-icon-avatar-cartoon-cute-freelancer-woman-working-online-learning-laptop-transparent-png-background-works-embodying-345422695.jpg-removebg-preview.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain " />
@@ -49,7 +49,7 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-4">
           <div className="grid-container">
-            <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
+            <div className="rounded-3xl w-full sm:h-[250px] h-[200px] flex justify-center items-center">
               <Globe
                 height={326}
                 width={326}
@@ -96,7 +96,7 @@ const About = () => {
             <img
               src="assets/grid4.png"
               alt="grid-4"
-              className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
+              className="w-full h-[180px] object-cover object-top"
             />
 
             <div className="space-y-2">
