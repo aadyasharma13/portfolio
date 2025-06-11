@@ -16,8 +16,8 @@ const About = () => {
   };
 
   return (
-    <section className="c-space my-10 max-w-6xl mx-auto px-4 pb-80" id="about">
-      <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-4 h-full">
+    <section className="w-full max-w-7xl mx-auto px-4 py-10" id="about">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img src="assets/d-icon-avatar-cartoon-cute-freelancer-woman-working-online-learning-laptop-transparent-png-background-works-embodying-345422695.jpg-removebg-preview.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain " />
