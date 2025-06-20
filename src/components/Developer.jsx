@@ -140,7 +140,7 @@ const Developer = ({ animationName = 'idle', ...props }) => {
   }, [animationName]);
 
   return (
-    <group {...props} dispose={null} ref={group} position={[0, -1.5, 0]} scale={2} rotation={[0, -0.2, 0]}>
+    <group {...props} dispose={null} ref={group} position={[0, -3, 0]} scale={4} rotation={[0, -0.2, 0]}>
       <primitive object={nodes.Hips} />
       <skinnedMesh
         name="EyeLeft"
