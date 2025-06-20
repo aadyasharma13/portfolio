@@ -71,18 +71,17 @@ const Contact = () => {
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
-        <div className="contact-container">
+        <div className="contact-container pt-10">
           <h3 className="head-text">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
           Have a question, collaboration idea, or just want to say hi?
-          I’d love to hear from you! Whether it’s about a potential project, feedback, or a shared passion for tech and creativity, feel free to drop a message below and I’ll get back to you soon.
+          I'd love to hear from you! Whether it's about a potential project, feedback, or a shared passion for tech and creativity, feel free to drop a message below and I'll get back to you soon.
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
             <label className="space-y-3">
               <span className="field-label">Full Name</span>
               <input
-        
                 type="text"
                 name="name"
                 value={form.name}
