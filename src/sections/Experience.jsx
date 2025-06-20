@@ -11,11 +11,23 @@ const WorkExperience = () => {
   const contentRef = useRef(null);
   const [contentHeight, setContentHeight] = useState(null);
 
-  useEffect(() => {
+  // Function to update height
+  const updateHeight = () => {
     if (contentRef.current) {
       setContentHeight(contentRef.current.offsetHeight);
     }
+  };
+
+  useEffect(() => {
+    updateHeight();
+    window.addEventListener('resize', updateHeight);
+    return () => window.removeEventListener('resize', updateHeight);
   }, [workExperiences]);
+
+  useEffect(() => {
+    // Also update height after every render in case of dynamic content
+    updateHeight();
+  });
 
   return (
     <section className="c-space my-20" id="work">
