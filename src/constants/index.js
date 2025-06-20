@@ -158,7 +158,7 @@ export const workExperiences = [
     pos: 'Founder',
     duration: 'Jan 2025 - Present',
     title: "We are a community of patients, caregivers and medical professionals that come together to share their journey and experiences",
-    icon: '/assets/image.jpg',
+    icon: '/assets/iwinlogo.jpeg',
     animation: 'victory',
   },
   {

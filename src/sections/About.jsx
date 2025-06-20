@@ -73,7 +73,7 @@ const About = () => {
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="/assets/image.jpg"
+              src="/assets/iwinlogo.jpeg"
               alt="grid-3"
               className="w-48 h-48 mx-auto rounded-full object-cover aspect-square drop-shadow-lg"
               style={{ boxShadow: '0 4px 20px rgba(0, 132, 255, 0.3)' }}

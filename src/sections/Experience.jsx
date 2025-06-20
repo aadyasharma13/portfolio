@@ -22,7 +22,7 @@ const WorkExperience = () => {
               <directionalLight position={[10, 10, 10]} intensity={1} />
               <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
               <Suspense fallback={<CanvasLoader />}>
-                <Developer position-y={-6} scale={6} animationName={animationName} />
+                <Developer animationName={animationName} />
               </Suspense>
             </Canvas>
           </div>
@@ -64,7 +64,5 @@ const WorkExperience = () => {
     </section>
   );
 };
-
-
 
 export default WorkExperience;
