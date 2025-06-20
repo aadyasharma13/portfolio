@@ -1,4 +1,4 @@
-import { Suspense, useState } from 'react';
+import { Suspense, useState, useRef, useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Icosahedron, OrbitControls } from '@react-three/drei';
 
@@ -8,14 +8,22 @@ import { workExperiences } from '../constants/index.js';
 
 const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
+  const contentRef = useRef(null);
+  const [contentHeight, setContentHeight] = useState(null);
+
+  useEffect(() => {
+    if (contentRef.current) {
+      setContentHeight(contentRef.current.offsetHeight);
+    }
+  }, [workExperiences]);
 
   return (
     <section className="c-space my-20" id="work">
       <div className="w-full text-white-600">
         <p className="head-text ">My Work Experience</p>
 
-        <div className="work-container">
-          <div className="work-canvas">
+        <div className="work-container ">
+          <div className="work-canvas" style={contentHeight ? { height: contentHeight } : {}}>
             <Canvas>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penubra={1} />
@@ -27,7 +35,7 @@ const WorkExperience = () => {
             </Canvas>
           </div>
 
-          <div className="work-content">
+          <div className="work-content" ref={contentRef}>
             <div className="sm:py-10 py-5 sm:px-5 px-2.5">
               {workExperiences.map((item, index) => (
                 <div
